@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:black;
+}
+
+nav {
+    background-color: #ff3e6c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+nav h1 {
+    font-size: 24px;
+    text-decoration-color: red;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.menu-line {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.menu-items {
+    list-style: none;
+    display: flex;
+}
+
+.menu-items li {
+    margin-right: 20px;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu-items li a:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 8px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: #fff;
+    color: #ff3e6c;
+}
+
+.main-div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.head {
+    margin-bottom: 30px;
+}
+
+.head h1 {
+    font-size: 36px;
+    color:white;
+}
+
+.head button {
+    background-color: #ff3e6c;
+    color: #fff;
+    padding: 10px 30px;
+    border: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.head button:hover {
+    background-color: #ff5680;
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+} 
+.Username{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 8px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color #ff5680;
+}
+.Password{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 8px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color #ff5680;
+}
+.Login{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 8px 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color #ff5680;
+}
